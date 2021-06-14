@@ -1,0 +1,34 @@
+You are given a list of N integers and a value K. Print 1 if K exists in the given list of N integers, otherwise print −1.
+
+Input:
+First-line will contain two numbers N and K.
+Next line contains N space-separated numbers.
+Output:
+Print the answer in a new line.
+
+Constraints
+1≤N,K,Ai≤105
+Time Limit:	1 secs
+Source Limit:	50000 Bytes
+
+#include <iostream>
+using namespace std;
+
+int main() {
+        int n,k;
+        cin>>n>>k;
+        int arr[n],i;
+        for(i=0;i<n;i++){
+            cin>>arr[i];
+        }
+        int count=0;
+        for(i=0;i<n;i++){
+            if(k==arr[i])
+            count++;
+        }
+        if(count)
+        cout<<"1";
+        else
+        cout<<"-1";
+	return 0;
+}
