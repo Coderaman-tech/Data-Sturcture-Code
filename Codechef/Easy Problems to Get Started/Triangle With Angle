@@ -1,0 +1,24 @@
+You're given the three angles a, b, and c respectively. Now check if these three angles can form a valid triangle with an area greater than 0 or not. Print "YES"(without quotes) if it can form a valid triangle with an area greater than 0, otherwise print "NO" (without quotes).
+
+Input:
+First-line will contain three numbers a, b, and c separated by space.
+Output:
+Print "YES"(without quotes) if these sides can form a valid triangle, otherwise print "NO" (without quotes).
+
+Constraints
+0≤a,b,c≤180
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b,c;
+    cin>>a>>b>>c;
+    int sum=a+b+c;
+    if(sum==180 && a > 0 && b > 0 && c > 0)
+    cout<<"YES";
+    else
+    cout<<"NO";
+	// your code goes here
+	return 0;
+}
