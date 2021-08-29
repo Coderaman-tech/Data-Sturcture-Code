@@ -20,8 +20,8 @@ int main()
     {
         s.insert(b[i]);
     }
-    cout << "Union element is:"
-         << "\n";
+    cout << "Union element is:";
+      cout<< "\n";
     for (auto element : s)
         cout << element << " ";
     cout << "\n";
