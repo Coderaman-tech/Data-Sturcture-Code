@@ -82,6 +82,7 @@ void delete_at_k(){
     int i=1;
     while(i<pos-1){
         ptr=ptr->next;
+        i++;
     }
     ptr->next=ptr->next->next;
     printf("\nDeletion is complete");
