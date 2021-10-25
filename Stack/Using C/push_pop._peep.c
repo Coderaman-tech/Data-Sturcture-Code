@@ -7,18 +7,20 @@ int top=-1;
 int stack[MAX];
 void push();
 void pop();
+void peep();//Use to access top element
 void display();
 
 int main(){
    int choice;
    while(1){
-   printf("Enter your choice 0.exit 1.push 2.pop 3.display\n");
+   printf("Enter your choice 0.exit 1.push 2.pop 3.display 4.Peep\n");
    scanf("%d",&choice);
    switch(choice){
        case 0: exit(1);break;
        case 1: push();break;
        case 2: pop();break;
        case 3: display();break;
+       case 4: peep();break;
        default: printf("Press right key\n");
    }
   }
@@ -46,6 +48,11 @@ void pop(){
         top-=1;
     }
 }
+
+void peep(){
+    printf("Pepped element is %d\n",stack[top]);
+}
+
 void display(){
     int i;
     if(top==-1){
