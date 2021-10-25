@@ -24,6 +24,7 @@ int main(){
        default: printf("Press right key\n");
    }
   }
+   return 0;
 }
 
 void push(){
