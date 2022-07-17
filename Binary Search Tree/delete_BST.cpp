@@ -14,7 +14,7 @@ struct Node{
         right=NULL;
     }
 };
-
+//This inorderSuccessor is only valid if node is not a leaf node and not having one children
 Node* inorderSucc(Node *root){
     Node *curr=root;
     while(curr && curr->left!=NULL){
