@@ -47,5 +47,5 @@ int main(){
 /* 
      
 Output
-10 20 30 40 50
+BSTs are identical
 */
