@@ -18,4 +18,4 @@ int main()
     return 0;
 }
 
-//SC- O(2*N)
+//SC- O(N*N)
