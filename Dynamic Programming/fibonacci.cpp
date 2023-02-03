@@ -1,3 +1,4 @@
+//Approach 1
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -24,7 +25,7 @@ TC- O(N)
 SC-O(N)+O(N)
 
 
-
+//Approach 2
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -45,8 +46,9 @@ cout<<dp[n]<<"\n";
 TC- O(N)
 SC-O(N)
 
+    
+//Approach 3
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main()
