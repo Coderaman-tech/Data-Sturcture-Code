@@ -4,6 +4,7 @@ public:
           queue<pair<string,int>>q;
         q.push({startWord,1});
         unordered_set<string>st(wordList.begin(),wordList.end());
+        st.erase(startWord);
         while(!q.empty()){
             string node=q.front().first;
             int steps=q.front().second;
