@@ -57,7 +57,7 @@ int main() {
     ds.unionBySize(4, 5);
     ds.unionBySize(6, 7);
     ds.unionBySize(5, 6);
-    // if 3 and 7 same or not
+
     if (ds.findUPar(3) == ds.findUPar(7)) {
         cout << "Same\n";
     }
