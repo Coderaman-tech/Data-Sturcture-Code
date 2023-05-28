@@ -12,7 +12,6 @@ class Solution
 	    st.push(node);
 	}
 	
-	//Function to return list containing vertices in Topological order. 
 	vector<int> topoSort(int V, vector<int> adj[]) 
 	{
 	    // code here
