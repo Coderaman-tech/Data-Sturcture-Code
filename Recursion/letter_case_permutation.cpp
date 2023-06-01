@@ -6,7 +6,6 @@ public:
             ans.push_back(str);
             return;
         }
-        //cout<<str<<"--"<<s<<endl;
         if(str[ind]>='a' && str[ind]<='z'){
             printall(ans,s,str,n,ind+1);
             str[ind]-=32;
