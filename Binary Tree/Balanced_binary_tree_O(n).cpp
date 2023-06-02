@@ -1,4 +1,3 @@
-//Balanced tree in binary tree
 
 #include<bits/stdc++.h>
 using namespace std;
