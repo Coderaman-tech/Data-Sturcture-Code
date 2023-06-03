@@ -1,4 +1,3 @@
-//Possible BST
 //Using catalan number concept
 #include<bits/stdc++.h>
 using namespace std;
