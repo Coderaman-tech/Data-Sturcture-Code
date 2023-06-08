@@ -6,14 +6,14 @@ using namespace std;
 
 bool subseqsum(int index,vector<int>&ans,int s,int sum,int arr[],int n){
   if(index==n){
-    // condition satisfied
+   
     if(s==sum){
       for(auto it:ans)
         cout<<it<<" ";
       cout<<"\n";
       return true;
    }
-   //condition not satisfied
+ 
     return false;
   }
  //pick
